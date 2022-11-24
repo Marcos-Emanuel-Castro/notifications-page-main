@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <section class="notification-page-container">
+    <div class="title-container">
+      <h1 class="title">Notifications<div class="number-notification">3</div></h1>
+      <span class="selector-notification-read">Mark all as read</span>
+    </div>
+
+    <div class="card-notification-container">
+      <div  class="card-notification marking">
+        <img class="image-perfil" src="./assets/images/avatar-mark-webber.webp" alt="">
+        <div class="description-notification">
+            <p class="detail-notification">
+              <strong>Mark Webber</strong> reacted to your recent post
+              <span class="text-highlight"> My first tournament today!</span>
+            </p>
+          <span class="data-notification">1m ago</span>
+        </div>
+      </div>
+      <div  class="card-notification marking">
+        <img class="image-perfil" src="./assets/images/avatar-angela-gray.webp" alt="">
+        <div>
+          <p class="detail-notification"><strong>Angela Gray</strong> followed you</p>
+          <span class="data-notification">5m ago</span>
+        </div>
+      </div>
+      <div  class="card-notification marking">
+        <img class="image-perfil" src="./assets/images/avatar-jacob-thompson.webp" alt="">
+        <div>
+          <p class="detail-notification"><strong>Jacob Thompson </strong>has joined your group <mark class="text-important-blue">Chess Club</mark></p>
+          <span class="data-notification">1 day ago</span>
+        </div>
+      </div>
+      <div id="card-message" class="card-notification">
+        <img class="image-perfil" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
+        <div>
+          <p class="detail-notification"><strong>Rizky Hasanuddin </strong>sent you a private message</p>
+          <span class="data-notification">5 days ago</span>
+          <p class="message-notification inactive">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+      </div>
+      <div id="image" class="card-notification">
+        <div class="perfil-container">
+          <img class="image-perfil" src="./assets/images/avatar-kimberly-smith.webp" alt="avatar">
+          <div class="img-container">
+            <p class="detail-notification"><strong>Kimberly Smith </strong>commented on your picture</p>
+            <span class="data-notification">1 week ago</span>
+          </div>
+        </div>
+        <img class="img-notification" src="./assets/images/image-chess.webp" alt="">
+      </div>
+      <div class="card-notification">
+        <img class="image-perfil" src="./assets/images/avatar-nathan-peterson.webp" alt="">
+        <div>
+          <p class="detail-notification"><strong>Nathan Peterson </strong>reacted to your recent post <span>5 end-game strategies to increase your win rate</span></p>
+          <span class="data-notification">2 weeks ago</span>
+        </div>
+      </div>
+      <div class="card-notification">
+        <img class="image-perfil" src="./assets/images/avatar-anna-kim.webp" alt="">
+        <div>
+          <p class="detail-notification"><strong>Anna Kim </strong>left the group <mark class="text-important-blue">Chess Club</mark></p>
+          <span class="data-notification">2 weeks ago</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+<script src="./main.js"></script>
+</html>
